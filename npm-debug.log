@@ -1,0 +1,146 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'D:\\Projects\\ass-upgrade',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\dskrypn\AppData\Roaming\npm-cache\@angular\ass-upgrade\2.0.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\dskrypn\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle @angular/ass-upgrade@2.0.0~prepublish: @angular/ass-upgrade@2.0.0
+11 silly lifecycle @angular/ass-upgrade@2.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\dskrypn\\AppData\\Roaming\\npm-cache\\@angular\\ass-upgrade\\2.0.0\\package.tgz',
+12 verbose tar pack   'D:\\Projects\\ass-upgrade' ]
+13 verbose tarball C:\Users\dskrypn\AppData\Roaming\npm-cache\@angular\ass-upgrade\2.0.0\package.tgz
+14 verbose folder D:\Projects\ass-upgrade
+15 verbose addLocalTarball adding from inside cache C:\Users\dskrypn\AppData\Roaming\npm-cache\@angular\ass-upgrade\2.0.0\package.tgz
+16 verbose correctMkdir C:\Users\dskrypn\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd @angular/ass-upgrade@2.0.0
+18 verbose afterAdd C:\Users\dskrypn\AppData\Roaming\npm-cache\@angular\ass-upgrade\2.0.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\dskrypn\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\dskrypn\AppData\Roaming\npm-cache\@angular\ass-upgrade\2.0.0\package\package.json written
+21 silly publish { _args: [ [ [Object], 'D:\\Projects\\assurancedataviz\\ui' ] ],
+21 silly publish   _from: '.',
+21 silly publish   _id: '@angular/ass-upgrade@2.0.0',
+21 silly publish   _inCache: true,
+21 silly publish   _installable: true,
+21 silly publish   _location: '/@angular/upgrade',
+21 silly publish   _nodeVersion: '5.4.1',
+21 silly publish   _npmOperationalInternal:
+21 silly publish    { host: 'packages-12-west.internal.npmjs.com',
+21 silly publish      tmp: 'tmp/upgrade-2.0.0.tgz_1473906776175_0.38377839396707714' },
+21 silly publish   _npmUser: { name: 'angular', email: 'angular-core+npm@google.com' },
+21 silly publish   _npmVersion: '3.9.2',
+21 silly publish   _phantomChildren: {},
+21 silly publish   _requested:
+21 silly publish    { raw: '@angular/ass-upgrade@^2.0.0',
+21 silly publish      scope: '@angular',
+21 silly publish      escapedName: '@angular%2fupgrade',
+21 silly publish      name: '@angular/ass-upgrade',
+21 silly publish      rawSpec: '^2.0.0',
+21 silly publish      spec: '>=2.0.0 <3.0.0',
+21 silly publish      type: 'range' },
+21 silly publish   _requiredBy: [ '/' ],
+21 silly publish   _resolved: 'https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.0.tgz',
+21 silly publish   _shasum: '726fc2f5dd5aef866afa2c0796d6556bbb3c525f',
+21 silly publish   _shrinkwrap: null,
+21 silly publish   _spec: '@angular/upgrade@^2.0.0',
+21 silly publish   _where: 'D:\\Projects\\assurancedataviz\\ui',
+21 silly publish   author: { name: 'angular' },
+21 silly publish   bugs: { url: 'https://github.com/angular/angular/issues' },
+21 silly publish   dependencies: {},
+21 silly publish   description: 'Angular - the library for easing update from v1 to v2',
+21 silly publish   devDependencies: {},
+21 silly publish   directories: {},
+21 silly publish   dist:
+21 silly publish    { shasum: '6d2c0071e55f57ca1eff683758626d7ef6cdbee0',
+21 silly publish      tarball: 'https://registry.npmjs.org/@angular/upgrade/-/upgrade-2.0.0.tgz' },
+21 silly publish   homepage: 'https://github.com/angular/angular#readme',
+21 silly publish   license: 'MIT',
+21 silly publish   main: 'bundles/upgrade.umd.js',
+21 silly publish   maintainers: [ { name: 'dskrypn', email: 'ignotus.sd@gmail.com' } ],
+21 silly publish   module: 'index.js',
+21 silly publish   name: '@angular/ass-upgrade',
+21 silly publish   optionalDependencies: {},
+21 silly publish   peerDependencies:
+21 silly publish    { '@angular/core': '^2.0.0',
+21 silly publish      '@angular/compiler': '^2.0.0',
+21 silly publish      '@angular/platform-browser': '^2.0.0',
+21 silly publish      '@angular/platform-browser-dynamic': '^2.0.0' },
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/angular/angular.git' },
+21 silly publish   scripts: {},
+21 silly publish   typings: 'index.d.ts',
+21 silly publish   version: '2.0.0' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name @angular/ass-upgrade
+24 silly mapToRegistry scope (from package name) @angular
+25 verbose mapToRegistry no registry URL found in name for scope @angular
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry data Result {
+28 silly mapToRegistry   raw: '@angular/ass-upgrade',
+28 silly mapToRegistry   scope: '@angular',
+28 silly mapToRegistry   escapedName: '@angular%2fass-upgrade',
+28 silly mapToRegistry   name: '@angular/ass-upgrade',
+28 silly mapToRegistry   rawSpec: '',
+28 silly mapToRegistry   spec: 'latest',
+28 silly mapToRegistry   type: 'tag' }
+29 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fass-upgrade
+30 verbose publish registryBase https://registry.npmjs.org/
+31 silly publish uploading C:\Users\dskrypn\AppData\Roaming\npm-cache\@angular\ass-upgrade\2.0.0\package.tgz
+32 verbose request uri https://registry.npmjs.org/@angular%2fass-upgrade
+33 verbose request sending authorization for write operation
+34 info attempt registry request try #1 at 1:05:28 PM
+35 verbose request using bearer token for auth
+36 verbose request id ceeb1e68e74b7b83
+37 http request PUT https://registry.npmjs.org/@angular%2fass-upgrade
+38 http 402 https://registry.npmjs.org/@angular%2fass-upgrade
+39 verbose headers { 'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=0',
+39 verbose headers   'content-length': '119',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Thu, 22 Sep 2016 10:05:30 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-fra1228-FRA',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1474538728.738975,VS0,VE1476' }
+40 verbose request invalidating C:\Users\dskrypn\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fass-upgrade on PUT
+41 error publish Failed PUT 402
+42 verbose stack Error: You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @angular/ass-upgrade
+42 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:264:12)
+42 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:252:14)
+42 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:172:14)
+42 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:200:22)
+42 verbose stack     at emitTwo (events.js:106:13)
+42 verbose stack     at Request.emit (events.js:191:7)
+42 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1067:10)
+42 verbose stack     at emitOne (events.js:101:20)
+42 verbose stack     at Request.emit (events.js:188:7)
+42 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:988:12)
+43 verbose statusCode 402
+44 verbose pkgid @angular/ass-upgrade
+45 verbose cwd D:\Projects\ass-upgrade
+46 error Windows_NT 10.0.10586
+47 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+48 error node v6.3.0
+49 error npm  v3.10.3
+50 error code E402
+51 error You need a paid account to perform this action. For more info, visit: https://www.npmjs.com/private-modules : @angular/ass-upgrade
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
